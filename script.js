@@ -2,6 +2,7 @@ const fs = require('fs');
 const assert = require('assert');
 const puppeteer = require('puppeteer');
 
+// https://qiita.com/tomi_linka/items/a68cf7840c3da002c6e0
 (async() => {
 
   const browser = await puppeteer.launch();
